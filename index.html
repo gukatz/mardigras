@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="images/mardicon.png">
+    <script src="js/main.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <title>Mardi Gras</title>
+</head>
+
+<body onLoad="counter1()">
+
+    <div class="container1">
+        <a href="index.html"><img class="logomain" src="images/logo.png" alt="Logo"></a>
+        <nav>
+            <div class="hamburger"><span style="background-color: #F2CC0F;z-index: 0;font-size: 1.5em;">☰</span>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+        </nav>
+        <div id="counter" class="counter" data-mg-timestamp="1646114400">
+            <div id="MardiGrasCountdown" class="is-countdown" data-mg-timestamp="1646114400">
+                <strong class="strongtitle">Time Untill Mardi Gras</strong>
+                <span class="countdown-row countdown-show">
+                    <span class="countdown-section"><span class="countdown-amount">0</span><span
+                            class="countdown-period">Days</span></span>
+                    <span class="countdown-section"><span class="countdown-amount">0</span><span
+                            class="countdown-period">Hours</span></span>
+                    <span class="countdown-section"><span class="countdown-amount">0</span><span
+                            class="countdown-period">Mins</span></span>
+                    <span class="countdown-section"><span class="countdown-amount">0</span><span
+                            class="countdown-period">Secs</span></span>
+                </span>
+            </div>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+            var myWindow = window.open("indexquiz.html", "Quizz",
+                "scrollbars=yes, resizable=no,top=100, left=400, width=700,height=700");
+        }
+    </script>
+    <div class="quizz" onclick="myFunction()">Trivia Quiz</div>
+    <div class="sliderpicture"><img src="images/mediabackground.jpg" style="width: 100%;"></div>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagesSlider/pexels-helena-jankovicova-kovacova-5932620.jpg" class="d-block w-100"
+                    alt="Mardi Gras New Orleans Picture Slider">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3 class="slider-caption">People Wearing Colorful Costumes Masks</h3>
+                    <p>Example of people wearing costumes masks from the New Orleans Mardi Gras Festival</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="imagesSlider/pexels-hitesh-choudhary-1144283.jpg" class="d-block w-100"
+                    alt="Mardi Gras New Orleans Picture Slider">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3 class="slider-caption">Assorted-Color Mask</h3>
+                    <p>Costumes masks from the New Orleans Mardi Gras Festival</p>
+                </div>
+
+            </div>
+            <div class="carousel-item">
+                <img src="imagesSlider/pexels-mali-maeder-335692.jpg" class="d-block w-100"
+                    alt="Mardi Gras New Orleans Picture Slider">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3 class="slider-caption">Person Wearing Gray Mask and Blue Costume</h3>
+                    <p>Example of a person with a costume mask from the New Orleans Mardi Gras Festival</p>
+                </div>
+
+            </div>
+            <div class="carousel-item">
+                <img src="imagesSlider/A-Alamy-C1EBB7_ed6mmp.jpg" class="d-block w-100"
+                    alt="Mardi Gras New Orleans Picture Slider">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3 class="slider-caption">People celebrating the Mardi Gras Festival</h3>
+                    <p>People celebrating the Mardi Gras Festival inside the streets of New Orleans.<br>
+                        An amazing example of a real freedom!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="imagesSlider/mardi-gras-new-orleans-2015.jpg" alt="Mardi Gras New Orleans Picture Slider">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3 class="slider-caption">The Bacchatality Float</h3>
+                    <p>The Bacchatality Float in the Krewe of Bacchus parade during Mardi Gras in New Orleans,
+                        Louisiana.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="container3">
+        <img src="images/4634.jpg" class="img-main">
+        <h1>What Is Mardi Gras?</h1>
+        <p>"Mardi Gras is the last day of a 10-day
+            celebration called Carnival. Carnival takes
+            place just before Ash Wednesday, and it is traditionally when Christians use up all of their rich foods
+            before they begin a 40-day period of fasting (eating less) leading up to Easter. New Orleans in Louisiana,
+            USA, is known for its elaborate Carnival and Mardi Gras celebrations. In New Orleans, groups called “krewes”
+            throw big parties and exciting public parades with colourful costumes and floats. In a tradition that began
+            in 1881, souvenir doubloons (coins), beads, dolls, and other trinkets are thrown from the floats to the
+            crowds. On Mardi Gras, the oldest and most famous parades take place. Although the most well-known
+            celebrations happen in New Orleans, Mardi Gras celebrations are held all around the world."</p>
+    </div>
+    <h1 class="shadowtext">Some hotels and attractions to do while celebrating the Mardi Gras Carnival</h1>
+    <div class="container2">
+        <!--item1-->
+        <div class="item">
+            <img src="Sponsors/Sheraton New Orleans Hotel.jpg" class="item-img"
+                alt="Sheraton New Orleans Hotel Picture">
+            <div class="item-body">
+                <h5 class="item-title">Sheraton New Orleans Hotel</h5>
+                <button class="item-button" id="card11">More Info</button>
+            </div>
+        </div>
+        <div id="popupWrapper11">
+            <div id="popup11">
+                <div id="popupClose11">X</div>
+                <div id="popupContent">
+                    <img src="Sponsors/Sheraton New Orleans Hotel 2.jpg" class="img-main2">
+                    <h1>Sheraton Hotel</h1>
+                    <p style="text-align: justify;">"On the historic Canal Street streetcar line bordering the French
+                        Quarter, the hotel is steps
+                        from
+                        world-famous restaurants, legendary nightlife, prime shopping and Harrah's Casino. Sheraton New
+                        Orleans
+                        Hotel offers two restaurants and a bar, a 24-hour fitness center, rooftop pool, expansive
+                        meeting
+                        space,
+                        amazing downtown and river views and Sheraton Sleep Experience Bed for a restful slumber."<br>
+                        <p style=color:#0D0D0D;font-size:18px;text-align:center;text-decoration:underline;>Location :
+                            500 Canal Street, New Orleans, Louisiana 70130 USA<br>
+                            Phone : +1(504)-525-2500 </p>
+                        <a href="https://www.marriott.com/hotels/travel/msyis-sheraton-new-orleans-hotel/"
+                            target="_blank" class="item-button2">To The
+                            Site</a>
+                </div>
+            </div>
+        </div>
+        <script>
+            const button11 = document.querySelector("#card11");
+            const popup11 = document.querySelector("#popupWrapper11");
+            const close11 = document.querySelector("#popupClose11");
+
+            button11.addEventListener('click', () => {
+                popup11.style.display = "block";
+            });
+            close11.addEventListener('click', () => {
+                popup11.style.display = "none";
+            });
+            popup11.addEventListener('click', (e) => {
+                popup11.style.display = "none";
+            });
+        </script>
+        <!--item2-->
+        <div class="item">
+            <img src="Sponsors/Walk-On's Bistreaux and Bar.jpg" class="item-img"
+                alt="Walk-On's Bistreaux and Bar New Orleans Picture">
+            <div class="item-body">
+                <h5 class="item-title">Walk-On's Bistreaux and Bar New Orleans</h5>
+                <button class="item-button" id="card12">More Info</button>
+            </div>
+        </div>
+        <div id="popupWrapper12">
+            <div id="popup12">
+                <div id="popupClose12">X</div>
+                <div id="popupContent">
+                    <img src="Sponsors/Walk-On's Bistreaux and Bar 2.jpg" class="img-main2">
+                    <h1>Walk-On's Bistreaux and Bar</h1>
+                    <p style="text-align: justify;">"Walk-On's is the perfect place to grab a bite or a beer, bring the
+                        family for dinner, party with
+                        friends or
+                        head before, during or after the game."<br>
+                        <p style=color:#0D0D0D;font-size:18px;text-align:center;text-decoration:underline;>Location :
+                            1009 Poydras Street, New Orleans, LA 70112, US<br>
+                            Phone : (504) 309-6530</p>
+                        <a href="https://walk-ons.com/" target="_blank" class="item-button2">To The
+                            Site</a>
+                </div>
+            </div>
+        </div>
+        <script>
+            const button12 = document.querySelector("#card12");
+            const popup12 = document.querySelector("#popupWrapper12");
+            const close12 = document.querySelector("#popupClose12");
+
+            button12.addEventListener('click', () => {
+                popup12.style.display = "block";
+            });
+            close12.addEventListener('click', () => {
+                popup12.style.display = "none";
+            });
+            popup12.addEventListener('click', (e) => {
+                popup12.style.display = "none";
+            });
+        </script>
+        <!--item3-->
+        <div class="item">
+            <img src="Sponsors/Ace Hotel New Orleans.jpg" class="item-img" alt="Ace Hotel New Orleans Picture">
+            <div class="item-body">
+                <h5 class="item-title">Ace Hotel New Orleans</h5>
+                <button class="item-button" id="card13">More Info</button>
+            </div>
+        </div>
+        <div id="popupWrapper13">
+            <div id="popup13">
+                <div id="popupClose13">X</div>
+                <div id="popupContent">
+                    <img src="Sponsors/Ace Hotel New Orleans 2.jpg" class="img-main2">
+                    <h1>Ace Hotel</h1>
+                    <p style="text-align:justify;">"Beautiful hotel with unique decor. Restaurant and bars onsite,
+                        Other restaurants, bars,
+                        galleries and shops
+                        in walking distance + Roof top pool!"<br><br>
+                        <p style=color:#0D0D0D;font-size:18px;text-align:center;text-decoration:underline;>
+                            Location :
+                            600 Carondelet Street, New Orleans, LA 70130, US<br>
+                            Phone : +1(504) 900-1180</p>
+                        <a href="https://www.acehotel.com/neworleans" target="_blank" class="item-button2">To The
+                            Site</a>
+                </div>
+            </div>
+        </div>
+        <script>
+            const button13 = document.querySelector("#card13");
+            const popup13 = document.querySelector("#popupWrapper13");
+            const close13 = document.querySelector("#popupClose13");
+
+            button13.addEventListener('click', () => {
+                popup13.style.display = "block";
+            });
+            close13.addEventListener('click', () => {
+                popup13.style.display = "none";
+            });
+            popup13.addEventListener('click', (e) => {
+                popup13.style.display = "none";
+            });
+        </script>
+        <!--item4-->
+        <div class="item">
+            <img src="Sponsors/The Ritz-Carlton, New Orleans.jpg" class="item-img"
+                alt="The Ritz-Carlton New Orleans Picture">
+            <div class="item-body">
+                <h5 class="item-title">The Ritz-Carlton New Orleans</h5>
+                <button class="item-button" id="card14">More Info</button>
+            </div>
+        </div>
+        <div id="popupWrapper14">
+            <div id="popup14">
+                <div id="popupClose14">X</div>
+                <div id="popupContent">
+                    <img src="Sponsors/The Ritz-Carlton, New Orleans 2.jfif" class="img-main2">
+                    <h1>The Ritz-Carlton</h1>
+                    <p style="text-align: justify;">"The hotel is in a great location close to Bourbon Street and an
+                        easy walk to restaurants and attractions in
+                        the French Quarter."<br><br>
+                        <p style=color:#0D0D0D;font-size:18px;text-align:center;text-decoration:underline;>Location :
+                            921 Canal Street, New Orleans, LA 70112, US<br>
+                            Phone : +1(504) 524-1331</p>
+                        <a href="https://www.ritzcarlton.com/en/hotels/new-orleans" target="_blank"
+                            class="item-button2">To The
+                            Site</a>
+                </div>
+            </div>
+        </div>
+        <script>
+            const button14 = document.querySelector("#card14");
+            const popup14 = document.querySelector("#popupWrapper14");
+            const close14 = document.querySelector("#popupClose14");
+
+            button14.addEventListener('click', () => {
+                popup14.style.display = "block";
+            });
+            close14.addEventListener('click', () => {
+                popup14.style.display = "none";
+            });
+            popup14.addEventListener('click', (e) => {
+                popup14.style.display = "none";
+            });
+        </script>
+        <!--item5-->
+        <div class="item">
+            <img src="Sponsors/Premium Parking - P402.jpg" class="item-img" alt="Premium Parking - P402 Picture">
+            <div class="item-body">
+                <h5 class="item-title">Premium Parking - P402</h5>
+                <button class="item-button" id="card15">More Info</button>
+            </div>
+        </div>
+        <div id="popupWrapper15">
+            <div id="popup15">
+                <div id="popupClose15">X</div>
+                <div id="popupContent">
+                    <img src="Sponsors/Premium Parking - P402 2.png" class="img-main2">
+                    <h1>Premium Parking - P402</h1>
+                    <p style="text-align: justify;">"Great place to park and walk around New Orleans. Close to
+                        everything and safe."<br><br><br>
+                        <p style=color:#0D0D0D;font-size:18px;text-align:center;text-decoration:underline;>Location :
+                            300 N Peters Street, New Orleans, LA
+                            70130, US<br>
+                            Phone : (844) 236-2011</p>
+                        <a href="https://www.premiumparking.com/P0402" target="_blank" class="item-button2">To The
+                            Site</a>
+                </div>
+            </div>
+        </div>
+        <script>
+            const button15 = document.querySelector("#card15");
+            const popup15 = document.querySelector("#popupWrapper15");
+            const close15 = document.querySelector("#popupClose15");
+
+            button15.addEventListener('click', () => {
+                popup15.style.display = "block";
+            });
+            close15.addEventListener('click', () => {
+                popup15.style.display = "none";
+            });
+            popup15.addEventListener('click', (e) => {
+                popup15.style.display = "none";
+            });
+        </script>
+        <!--item6-->
+        <div class="item">
+            <img src="Sponsors/Louisiana Children's Museum.jpg" class="item-img"
+                alt="Louisiana Children's Museum Picture">
+            <div class="item-body">
+                <h5 class="item-title">Louisiana Children's Museum</h5>
+                <button class="item-button" id="card16">More Info</button>
+            </div>
+        </div>
+        <div id="popupWrapper16">
+            <div id="popup16">
+                <div id="popupClose16">X</div>
+                <div id="popupContent">
+                    <img src="Sponsors/Louisiana Children's Museum 2.jpg" class="img-main2">
+                    <h1>Louisiana Children's Museum</h1>
+                    <p style="text-align: justify;">"The children's museum is so interactive and designed to support
+                        development, play, and curiosity
+                        of young
+                        children. There are multiple exhibits ranging from markets, water tables, arts and crafts,
+                        nature play, and
+                        an edible garden. It is highly recommended and in a great spot in City Park."<br>
+                        <p style=color:#0D0D0D;font-size:18px;text-align:center;text-decoration:underline;>Location :
+                            15 Henry Thomas Dr, New Orleans, LA 70124, US<br>
+                            Phone : (504) 523-1357</p>
+                        <a href="https://lcm.org/" target="_blank" class="item-button2">To The Site</a>
+                </div>
+            </div>
+        </div>
+        <script>
+            const button16 = document.querySelector("#card16");
+            const popup16 = document.querySelector("#popupWrapper16");
+            const close16 = document.querySelector("#popupClose16");
+
+            button16.addEventListener('click', () => {
+                popup16.style.display = "block";
+            });
+            close16.addEventListener('click', () => {
+                popup16.style.display = "none";
+            });
+            popup16.addEventListener('click', (e) => {
+                popup16.style.display = "none";
+            });
+        </script>
+        <!--item7-->
+        <div class="item">
+            <img src="Sponsors/Museum of Death.jpg" class="item-img" alt="Museum of Death Picture">
+            <div class="item-body">
+                <h5 class="item-title">Museum of Death</h5>
+                <button class="item-button" id="card17">More Info</button>
+            </div>
+        </div>
+        <div id="popupWrapper17">
+            <div id="popup17">
+                <div id="popupClose17">X</div>
+                <div id="popupContent">
+                    <img src="Sponsors/Museum of Death 2.jpeg" class="img-main2">
+                    <h1>Museum of Death</h1>
+                    <p style="text-align: justify;">"The World Famous Museum of Death was founded in June, 1995 when JD
+                        Healy and Cathee Shultz
+                        decided to fill
+                        the void in death education in this country and made death their life’s work."<br><br>
+                        <p style=color:#0D0D0D;font-size:18px;text-align:center;text-decoration:underline;>Location :
+                            227 Dauphine St.
+                            New Orleans, LA 70112
+                            US<br>
+                            Phone : (504) 593-3968</p>
+                        <a href="http://www.museumofdeath.net/" target="_blank" class="item-button2">To The Site</a>
+                </div>
+            </div>
+        </div>
+        <script>
+            const button17 = document.querySelector("#card17");
+            const popup17 = document.querySelector("#popupWrapper17");
+            const close17 = document.querySelector("#popupClose17");
+
+            button17.addEventListener('click', () => {
+                popup17.style.display = "block";
+            });
+            close17.addEventListener('click', () => {
+                popup17.style.display = "none";
+            });
+            popup17.addEventListener('click', (e) => {
+                popup17.style.display = "none";
+            });
+        </script>
+        <!--item8-->
+        <div class="item">
+            <img src="Sponsors/Haunted Museum.jpg" class="item-img" alt="Haunted Museum Picture">
+            <div class="item-body">
+                <h5 class="item-title">Haunted Museum</h5>
+                <button class="item-button" id="card18">More Info</button>
+            </div>
+        </div>
+        <div id="popupWrapper18">
+            <div id="popup18">
+                <div id="popupClose18">X</div>
+                <div id="popupContent">
+                    <img src="Sponsors/Haunted Museum 2.jpg" class="img-main2">
+                    <h1>Haunted Museum</h1>
+                    <p style="text-align: justify;">"Join Voodoo Queen Bloody Mary and her mystic staff for tours, ghost
+                        hunting, seance, psychic
+                        readings,
+                        events, and mystic shopping in a 200-year-old haunted house"<br><br>
+                        <p style=color:#0D0D0D;font-size:18px;text-align:center;text-decoration:underline;>Location :
+                            826 & 828
+                            N.Rampart St, New Orleans, LA 70116, US<br>
+                            Phone : (504) 915-7774 /
+                            (504) 909-6666​</p>
+                        <a href="https://www.bloodymarystours.com/" target="_blank" class="item-button2">To The Site</a>
+                </div>
+            </div>
+        </div>
+        <script>
+            const button18 = document.querySelector("#card18");
+            const popup18 = document.querySelector("#popupWrapper18");
+            const close18 = document.querySelector("#popupClose18");
+
+            button18.addEventListener('click', () => {
+                popup18.style.display = "block";
+            });
+            close18.addEventListener('click', () => {
+                popup18.style.display = "none";
+            });
+            popup18.addEventListener('click', (e) => {
+                popup18.style.display = "none";
+            });
+        </script>
+    </div>
+    <div class="container1">
+
+        <footer>
+            <img class="logo" src="images/logofooter.jpg" alt="Logo Footer">
+            <div class="social-footer">
+                <a href="https://www.facebook.com/MardiGrasNewOrleans" target="_blank">
+                    <img class="social" src="SocialMediaLogo/facebooklogo.png" alt="Facebook Logo"></a>
+                <a href="https://twitter.com/MardiGrasNOLA" target="_blank">
+                    <img class="social" src="SocialMediaLogo/twitterlogo.png" alt="Twitter Logo"></a>
+                <a href="https://www.instagram.com/mardigrasneworleans/" target="_blank">
+                    <img class="social" src="SocialMediaLogo/instagramlogo.png" alt="Instagram Logo"></a>
+                <a href="https://www.youtube.com/channel/UCOrq1qF6dVDn9Do-wvbKh0Q" target="_blank">
+                    <img class="social" src="SocialMediaLogo/youtubelogo.png" alt="Youtube Logo"></a>
+                <a href="https://www.tripadvisor.com/Profile/MardiGrasNOLA" target=_blank>
+                    <img class="social" src="SocialMediaLogo/tripadvisorlogo.png" alt="Tripadvisor Logo"></a>
+            </div>
+
+            <div class="footer1">
+                <a href="#top"><img class="footer2" src="images/backtotop.png">
+                </a></div>
+
+        </footer>
+    </div>
+    <div class="footer3">Copyright © 2021 Guy Katz</div>
+</body>
+
+</html>

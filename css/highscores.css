@@ -1,0 +1,31 @@
+body {
+    color: #F2F2F2;
+}
+
+#highScoresList {
+    list-style: none;
+    margin-bottom: 4rem;
+}
+
+.high-score {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.fas.fa-home {
+    color: #F2F2F2;
+}
+
+.btn {
+
+    font-size: 2.4rem;
+    padding: 2rem 0;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #F2F2F2;
+    background: linear-gradient(90deg, #9453A6 0%, #9453A6 100%);
+    border-radius: 4px;
+
+}
